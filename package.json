@@ -4,14 +4,16 @@
   "description": "practice graphql",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "nodemon ./server/server.js",
+    "dev2": "nodemon ./server/newServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SON JUN SEOK",
   "license": "ISC",
   "dependencies": {
     "@apollo/server": "^4.7.0",
-    "graphql": "^16.6.0"
+    "graphql": "^16.6.0",
+    "node-fetch": "^3.3.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"

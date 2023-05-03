@@ -4,8 +4,8 @@
   "description": "practice graphql",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./server/server.js",
-    "dev2": "nodemon ./server/newServer.js",
+    "dev": "nodemon server.js",
+    "dev2": "nodemon newServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SON JUN SEOK",

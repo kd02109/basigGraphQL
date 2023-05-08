@@ -8,19 +8,4 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
 });
 
-client
-  .query({
-    //graphQL 을 통해 데이터 가지고 오기
-    // 데이터를 정상적으로 받아오는지 확인하기
-    query: gql`
-      {
-        movies {
-          title
-          id
-        }
-      }
-    `,
-  })
-  .then((data) => console.log(data));
-
 export default client;
